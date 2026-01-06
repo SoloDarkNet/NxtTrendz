@@ -183,7 +183,6 @@ class ProductItemDetails extends Component {
                   type="button"
                   className="button add-to-cart-btn"
                   onClick={onClickAddToCart}
-                  data-testid="plus"
                 >
                   ADD TO CART
                 </button>
