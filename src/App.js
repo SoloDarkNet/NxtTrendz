@@ -97,7 +97,7 @@ class App extends Component {
           <ProtectedRoute exact path="/products" component={Products} />
           <ProtectedRoute
             exact
-            path="/products/:id"
+            path="/product-details/:id"
             component={ProductItemDetails}
           />
           <ProtectedRoute exact path="/cart" component={Cart} />
