@@ -8,7 +8,7 @@ const ProductCard = props => {
 
   return (
     <li className="product-item">
-      <Link to={`/products/${id}`} className="link-item">
+      <Link to={`/product-details/${id}`} className="link-item">
         <img
           onClick={() => {}}
           src={imageUrl}
